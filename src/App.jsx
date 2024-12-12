@@ -1,15 +1,12 @@
-
-import './App.css'
+import "./App.css";
+import HomePage from "./page/HomePage.jsx";
 
 function App() {
-
-
   return (
     <div>
-      <h1>hello word</h1>
+      <HomePage />
     </div>
-      
-  )
+  );
 }
 
-export default App
+export default App;

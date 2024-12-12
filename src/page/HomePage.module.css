@@ -1,0 +1,18 @@
+.home {
+    background-image: url(../../images/image.png);
+    width: 1400px;
+height: 762px;
+}
+
+.title {
+    font-family: "Bluu Next Cyrillic", sans-serif;
+font-weight: 700;
+font-size: 80px;
+line-height: 1.25;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+text-align: center;
+color: #fabf59;
+padding-top: 100px;
+text-align: center;
+}
