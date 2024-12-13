@@ -30,3 +30,8 @@
     width: 320px;
     height: 59px;
 }
+
+.link:hover {
+    color: gold;
+    border: 1px solid gold;
+}
