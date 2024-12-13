@@ -7,8 +7,8 @@ import PageOne from "./page/PageOne.jsx";
 function App() {
   return (
     <div>
-      {/* <HomePage /> */}
-      <PageOne />
+      <HomePage />
+      {/* <PageOne /> */}
     </div>
   );
 }
