@@ -6,8 +6,8 @@
 }
 
 .title {
-    font-family: "Bluu Next Cyrillic", sans-serif;
-    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
     font-size: 80px;
     line-height: 1.25;
     letter-spacing: 0.01em;
@@ -20,6 +20,7 @@
 }
 
 .link {
+font-family: "Poppins", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.3;
