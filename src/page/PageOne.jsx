@@ -22,6 +22,7 @@ const PageOne = () => {
           >
             <div className={css.div}>
               {/* <h2 className={css.tit}>{`Marina, Oleg ${index + 1}`}</h2> */}
+              <h3 className={css.name}>Сharacter</h3>
               <p className={css.text}>The Boy Who Lived</p>
               <p className={css.text}>Gryffindor</p>
               <p className={css.text}>31-07-1980</p>
