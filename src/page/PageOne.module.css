@@ -113,3 +113,28 @@ display: flex;
 gap: 20px;
 align-items: center;
 }
+
+.main {
+    background-color: black;
+    padding-bottom: 70px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
+    border-radius: 20px;
+    width: 295px;
+    height: 452px;
+    cursor: pointer;
+    transition: border 0.3s ease; 
+}
+
+.selected {
+    border: 3px solid gold; 
+}
+
