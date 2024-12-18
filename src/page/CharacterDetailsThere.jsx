@@ -7,7 +7,9 @@ import image6 from '../../images/image6.png'
 import image13 from '../../images/image13.png'
 
 import image10 from '../../images/image10.png'
-import image11 from '../../images/image11.png'
+import image19 from '../../images/image19.png'
+import image20 from '../../images/image20.png'
+
 import image111 from '../../images/image111.png'
 
 import back from '../../images/back.jpg'
@@ -23,11 +25,11 @@ const CharacterDetailsThere = () => {
     { name: "Minerva McGonagall", description: "The Boy Who Lived", house: "Gryffindor", dob: "4-10-1925", image: image111 },
     { name: "Rubeus Hagrid", description: "Dragomir Despard", house: "Gryffindor", dob: "06-12-1928", image: image13 },
     { name: "Neville Longbottom", description: "Brave at Heart", house: "Gryffindor", dob: "30-07-1980", image: image10  },
-    { name: "Luna Lovegood", description: "Ravenclaw Eccentric", house: "Ravenclaw", dob: "13-02-1981", image: image10 },
-    { name: "Neville Longbottom", description: "Brave at Heart", house: "Gryffindor", dob: "30-07-1980", image: image11 },
+    { name: "Ginny Weasley", description: "The Boy Who Lived", house: "Gryffindor", dob: "11-08-1981", image: image19 },
+    { name: "Sirius Black", description: "Padfoot, Snuffles", house: "Gryffindor", dob: "03-11-1959", image: image20 },
   ];
 
-  const character = characters[id]; // Получаем данные персонажа по индексу
+  const character = characters[id]; 
 
   if (!character) {
     return <p>Персонаж не найден</p>;
