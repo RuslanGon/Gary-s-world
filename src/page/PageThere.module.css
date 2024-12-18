@@ -145,3 +145,22 @@ align-items: center;
     border: 3px solid gold; 
 }
 
+.com {
+border: 1px solid #d9d9d9;
+border-radius: 100px;
+width: 1240px;
+height: 59px;
+margin-left: 10px;
+margin-bottom: 50px;
+}
+
+.comtex {
+    font-family: "Poppins";
+font-weight: 700;
+font-size: 18px;
+line-height: 1.3;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}

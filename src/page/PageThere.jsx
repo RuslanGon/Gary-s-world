@@ -28,6 +28,24 @@ const PageThere = () => {
   return (
     <div className={css.main}>
       <h2 className={css.title}>Персонажі в <br /> певному будинку</h2>
+      <div className={css.com}>
+        <div>
+          <img src="" alt="" />
+          <h3 className={css.comtex}>Gryffindor</h3>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <h3 className={css.comtex}>Slytherin</h3>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <h3 className={css.comtex}>Ravenclaw</h3>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <h3 className={css.comtex}>Hufflepuff</h3>
+        </div>
+      </div>
       <ul className={css.list}>
         {items.map((item, index) => (
           <li
