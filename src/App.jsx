@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom"; // Импортируем Routes и Route
+import { Routes, Route } from "react-router-dom"; 
 import HomePage from "./page/HomePage.jsx";
 import TitlePage from "./page/TitlePage.jsx";
 import PageOne from "./page/PageOne.jsx";
