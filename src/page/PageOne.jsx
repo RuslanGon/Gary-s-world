@@ -19,8 +19,8 @@ const PageOne = () => {
     { name: "Draco Malfoy", description: "Slytherin Prince", house: "Slytherin", dob: "05-06-1980" },
     { name: "Albus Dumbledore", description: "Headmaster", house: "Gryffindor", dob: "1881" },
     { name: "Severus Snape", description: "Half-Blood Prince", house: "Slytherin", dob: "09-01-1960" },
-    { name: "Luna Lovegood", description: "Ravenclaw Eccentric", house: "Ravenclaw", dob: "13-02-1981" },
     { name: "Neville Longbottom", description: "Brave at Heart", house: "Gryffindor", dob: "30-07-1980" },
+    { name: "Luna Lovegood", description: "Ravenclaw Eccentric", house: "Ravenclaw", dob: "13-02-1981" },
   ];
 
   // Массив для классов

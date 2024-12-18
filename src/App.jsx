@@ -7,6 +7,7 @@ import PageTwo from "./page/PageTwo.jsx";
 import PageThere from "./page/PageThere.jsx";
 import CharacterDetails from "./page/CharacterDetails.jsx";
 import CharacterDetailsTwo from "./page/CharacterDetailsTwo.jsx";
+import CharacterDetailsThere from "./page/CharacterDetailsThere.jsx";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         <Route path="/page-two" element={<PageTwo />} />
         <Route path="/character1/:id" element={<CharacterDetailsTwo  />} />
         <Route path="/page-three" element={<PageThere />} />
-        <Route path="/character/:id" element={<CharacterDetails />} />
+        <Route path="/character2/:id" element={<CharacterDetailsThere />} />
       </Routes>
     </div>
   );
