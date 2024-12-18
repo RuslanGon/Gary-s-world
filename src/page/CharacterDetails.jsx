@@ -8,7 +8,7 @@ import image8 from '../../images/image8.png'
 import image9 from '../../images/image9.png'
 import image10 from '../../images/image10.png'
 import image11 from '../../images/image11.png'
-
+import back from '../../images/back.jpg'
 
 const CharacterDetails = () => {
   const { id } = useParams(); // Получаем параметр из URL
@@ -33,12 +33,12 @@ const CharacterDetails = () => {
 
   return (
     <div className={css.details}>
-      <h1>{character.name}</h1>
-      <p>{character.description}</p>
-      <p>House: {character.house}</p>
-      <p>Date of Birth: {character.dob}</p>
-      <img src={character.image} alt={character.name} />
-      <Link to="/page-one">Назад</Link>
+      <img className={css.img} src={character.image} alt={character.name} />
+      <h1 className={css.title}>{character.name}</h1>
+      <p className={css.text}>{character.description}</p>
+      <p className={css.text}>House: {character.house}</p>
+      <p className={css.text}>Date of Birth: {character.dob}</p>
+      <Link className={css.w} to="/page-one"><img className={css.linkback} src={back} alt="" /></Link>
     </div>
   );
 };

@@ -1,24 +1,33 @@
 .details {
     text-align: center;
-    margin: 20px;
+    background-color: black;
+padding: 30px;
   }
   
-  .details h1 {
+  .img {
+    width: 370px;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-weight: 500;
     font-size: 36px;
-    color: #333;
-  }
-  
-  .details p {
-    font-size: 18px;
-    color: #555;
-    margin: 5px 0;
-  }
-  
-  .details img {
+    line-height: 1.4;
+    color: #fff;
     margin-top: 20px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
-  
+
+  .text {
+font-weight: 400;
+font-size: 20px;
+line-height: 1.4;
+color: #fabf59;
+  } 
+  .linkback {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin: 30px auto;
+    border-radius: 30px;
+ }
