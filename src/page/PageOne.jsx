@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom"; // Импортируем useNavigate
 import css from "./PageOne.module.css";
 import arrow from "../../images/arrow.png";
 import back from '../../images/back.jpg'
 
 const PageOne = () => {
   const [selectedItem, setSelectedItem] = useState(null);
+  const navigate = useNavigate(); 
 
   const handleItemClick = (itemIndex) => {
     setSelectedItem(itemIndex);
@@ -52,7 +53,9 @@ const PageOne = () => {
           </li>
         ))}
       </ul>
-      <Link to='/title-page'><img className={css.linkback} src={back} alt="" /></Link>
+      <button className={css.linkback} onClick={() => navigate(-1)}>
+        <img className={css.linkback1} src={back} alt="Back" />
+      </button>
     </div>
   );
 };
