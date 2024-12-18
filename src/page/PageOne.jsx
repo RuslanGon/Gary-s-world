@@ -52,7 +52,7 @@ const PageOne = () => {
           </li>
         ))}
       </ul>
-      <Link to='/'><img className={css.linkback} src={back} alt="" /></Link>
+      <Link to='/title-page'><img className={css.linkback} src={back} alt="" /></Link>
     </div>
   );
 };
