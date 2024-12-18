@@ -74,35 +74,35 @@ color: #fff;
 }
 
 .item4 {
-    background-image: url(../../images/image7.png);
+    background-image: url(../../images/image111.png);
     border-radius: 20px;
     width: 295px;
     height: 452px;
 }
 
 .item5 {
-    background-image: url(../../images/image8.png);
+    background-image: url(../../images/image13.png);
     border-radius: 20px;
     width: 295px;
     height: 452px;
 }
 
 .item6 {
-    background-image: url(../../images/image9.png);
-    border-radius: 20px;
-    width: 295px;
-    height: 452px;
-}
-
-.item7 {
     background-image: url(../../images/image10.png);
     border-radius: 20px;
     width: 295px;
     height: 452px;
 }
 
+.item7 {
+    background-image: url(../../images/image19.png);
+    border-radius: 20px;
+    width: 295px;
+    height: 452px;
+}
+
 .item8 {
-    background-image: url(../../images/image11.png);
+    background-image: url(../../images/image20.png);
     border-radius: 20px;
     width: 295px;
     height: 452px;

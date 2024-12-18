@@ -12,14 +12,14 @@ const PageThere = () => {
 
   // Массив с данными для персонажей
   const characters = [
+    { name: "Harry Potter", description: "The Boy Who Lived", house: "Gryffindor", dob: "31-07-1980" },
+    { name: "Hermione Granger", description: "Brightest Witch", house: "Gryffindor", dob: "19-09-1979" },
+    { name: "Ron Weasley", description: "Loyal Friend", house: "Gryffindor", dob: "01-03-1980" },
     { name: "Minerva McGonagall", description: "The Boy Who Lived", house: "Gryffindor", dob: "4-10-1925" },
-    { name: "Severus Snape", description: "Half-Blood Princ", house: "Slytherin", dob: "09-01-1960" },
     { name: "Rubeus Hagrid", description: "Dragomir Despard", house: "Gryffindor", dob: "06-12-1928" },
-    { name: "Remus Lupin", description: "Professor Lupin, Moony", house: "Gryffindor", dob: "10-03-1960" },
-    { name: "Horace Slughorn", description: "The Boy Who Lived", house: "Slytherin", dob: "1881" },
-    { name: "Dolores Umbridge", description: "The Boy Who Lived", house: "Slytherin", dob: "09-01-1960" },
-    { name: "Argus Filch", description: "The Boy Who Lived", house: "Gryffindor", dob: "13-02-1981" },
-    { name: "Albus Dumbledore", description: "Professor Dumbledor", house: "Gryffindor", dob: "30-07-1980" },
+    { name: "Neville Longbottom", description: "Brave at Heart", house: "Gryffindor", dob: "30-07-1980" },
+    { name: "Ginny Weasley", description: "The Boy Who Lived", house: "Gryffindor", dob: "11-08-1981" },
+    { name: "Sirius Black", description: "Padfoot, Snuffles", house: "Gryffindor", dob: "03-11-1959" },
   ];
 
   // Массив для классов
