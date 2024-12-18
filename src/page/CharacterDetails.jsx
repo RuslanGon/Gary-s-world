@@ -11,9 +11,9 @@ import image11 from '../../images/image11.png'
 import back from '../../images/back.jpg'
 
 const CharacterDetails = () => {
-  const { id } = useParams(); // Получаем параметр из URL
+  const { id } = useParams(); 
 
-  // Данные персонажей (можно вынести в общий файл)
+  
   const characters = [
     { name: "Harry Potter", description: "The Boy Who Lived", house: "Gryffindor", dob: "31-07-1980", image: image4 },
     { name: "Hermione Granger", description: "Brightest Witch", house: "Gryffindor", dob: "19-09-1979", image: image5 },

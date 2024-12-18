@@ -6,6 +6,8 @@ import PageOne from "./page/PageOne.jsx";
 import PageTwo from "./page/PageTwo.jsx";
 import PageThere from "./page/PageThere.jsx";
 import CharacterDetails from "./page/CharacterDetails.jsx";
+import CharacterDetailsTwo from "./page/CharacterDetailsTwo.jsx";
+
 
 function App() {
   return (
@@ -16,9 +18,9 @@ function App() {
         <Route path="/page-one" element={<PageOne />} />
         <Route path="/character/:id" element={<CharacterDetails />} />
         <Route path="/page-two" element={<PageTwo />} />
+        <Route path="/character1/:id" element={<CharacterDetailsTwo  />} />
         <Route path="/page-three" element={<PageThere />} />
-
-
+        <Route path="/character/:id" element={<CharacterDetails />} />
       </Routes>
     </div>
   );
