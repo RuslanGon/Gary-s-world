@@ -200,3 +200,11 @@ height: 38px;
     align-items: center;
     transition: all 0.3s ease;
 } 
+
+.linkback {
+    width: 170px;
+    height: 60px;
+    margin-top: 30px;
+    margin: 30px auto;
+    border-radius: 30px;
+ }

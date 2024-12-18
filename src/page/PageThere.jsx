@@ -6,6 +6,8 @@ import logo11 from '../../images/logo11.png'
 import logo12 from '../../images/logo12.png'
 import logo13 from '../../images/logo13.png'
 import logo14 from '../../images/logo14.png'
+import back from '../../images/back.jpg'
+
 
 const PageThere = () => {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -81,6 +83,7 @@ const PageThere = () => {
           </li>
         ))}
       </ul>
+      <Link to='/'><img className={css.linkback} src={back} alt="" /></Link>
     </div>
   );
 };

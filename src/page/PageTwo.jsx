@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import css from "./PageTwo.module.css";
 import arrow from "../../images/arrow.png";
+import back from '../../images/back.jpg'
+
 
 const PageTwo = () => {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -51,6 +53,7 @@ const PageTwo = () => {
           </li>
         ))}
       </ul>
+      <Link to='/'><img className={css.linkback} src={back} alt="" /></Link>
     </div>
   );
 };
