@@ -1,0 +1,24 @@
+.details {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .details h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .details p {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .details img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  

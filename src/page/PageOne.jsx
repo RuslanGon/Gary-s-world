@@ -45,7 +45,7 @@ const PageOne = () => {
             </div>
             <div className={css.div1}>
               <span className={css.span}>Більше інформації</span>
-              <Link>
+              <Link to={`/character/${index}`}>
                 <img src={arrow} alt="arrow" />
               </Link>
             </div>

@@ -5,6 +5,7 @@ import TitlePage from "./page/TitlePage.jsx";
 import PageOne from "./page/PageOne.jsx";
 import PageTwo from "./page/PageTwo.jsx";
 import PageThere from "./page/PageThere.jsx";
+import CharacterDetails from "./page/CharacterDetails.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/title-page" element={<TitlePage />} />
         <Route path="/page-one" element={<PageOne />} />
+        <Route path="/character/:id" element={<CharacterDetails />} />
         <Route path="/page-two" element={<PageTwo />} />
         <Route path="/page-three" element={<PageThere />} />
 
