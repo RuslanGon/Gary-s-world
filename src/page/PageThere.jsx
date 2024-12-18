@@ -33,25 +33,25 @@ const PageThere = () => {
     <div className={css.main}>
       <h2 className={css.title}>Персонажі в <br /> певному будинку</h2>
       <div className={css.com}>
-        <div>
+        <div className={css.comdiv}>
           <Link className={css.link}>
           <img className={css.comimg} src={logo11} alt="" />
           <h3 className={css.comtex}>Gryffindor</h3>
           </Link>
         </div>
-        <div>
+        <div className={css.comdiv}>
          <Link className={css.link}>
          <img className={css.comimg} src={logo12} alt="" />
           <h3 className={css.comtex}>Slytherin</h3>
          </Link>
         </div>
-        <div>
+        <div className={css.comdiv}>
           <Link className={css.link}>
           <img className={css.comimg} src={logo13} alt="" />
           <h3 className={css.comtex}>Ravenclaw</h3>
           </Link>
         </div>
-        <div>
+        <div className={css.comdiv}>
          <Link className={css.link}>
          <img className={css.comimg} src={logo14} alt="" />
           <h3 className={css.comtex}>Hufflepuff</h3>
