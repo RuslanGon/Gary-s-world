@@ -152,6 +152,10 @@ width: 1240px;
 height: 59px;
 margin-left: 10px;
 margin-bottom: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 140px;
 }
 
 .comtex {
@@ -163,4 +167,15 @@ letter-spacing: 0.01em;
 text-transform: uppercase;
 text-align: center;
 color: #fff;
+}
+
+.comimg {
+width: 35px;
+height: 38px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

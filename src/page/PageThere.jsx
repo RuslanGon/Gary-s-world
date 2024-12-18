@@ -2,6 +2,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import css from "./PageThere.module.css";
 import arrow from "../../images/arrow.png";
+import logo11 from '../../images/logo11.png'
+import logo12 from '../../images/logo12.png'
+import logo13 from '../../images/logo13.png'
+import logo14 from '../../images/logo14.png'
 
 const PageThere = () => {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -30,20 +34,28 @@ const PageThere = () => {
       <h2 className={css.title}>Персонажі в <br /> певному будинку</h2>
       <div className={css.com}>
         <div>
-          <img src="" alt="" />
+          <Link className={css.link}>
+          <img className={css.comimg} src={logo11} alt="" />
           <h3 className={css.comtex}>Gryffindor</h3>
+          </Link>
         </div>
         <div>
-          <img src="" alt="" />
+         <Link className={css.link}>
+         <img className={css.comimg} src={logo12} alt="" />
           <h3 className={css.comtex}>Slytherin</h3>
+         </Link>
         </div>
         <div>
-          <img src="" alt="" />
+          <Link className={css.link}>
+          <img className={css.comimg} src={logo13} alt="" />
           <h3 className={css.comtex}>Ravenclaw</h3>
+          </Link>
         </div>
         <div>
-          <img src="" alt="" />
+         <Link className={css.link}>
+         <img className={css.comimg} src={logo14} alt="" />
           <h3 className={css.comtex}>Hufflepuff</h3>
+          </Link>
         </div>
       </div>
       <ul className={css.list}>
